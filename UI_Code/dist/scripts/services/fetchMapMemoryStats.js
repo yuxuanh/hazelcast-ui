@@ -1,0 +1,1 @@
+hzApp.factory("fetchMapMemoryStats",["$http","webServiceHost",function($http,webServiceHost){return{nodeMemory:function(host,mapName){var url=webServiceHost+"/mapmemory/"+host+"/1010/"+mapName;return $http({method:"GET",url:url}).success(function(data,status,headers,config){}).error(function(data,status,headers,config){})}}}]);

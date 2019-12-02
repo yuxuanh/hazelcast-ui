@@ -1,0 +1,1 @@
+define(["angular"],function(angular){"use strict";angular.module("hazelcastUiApp.controllers.MainCtrl",[]).controller("MainCtrl",function(){this.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]})});

@@ -1,0 +1,1 @@
+hzApp.controller("mapsCtrl",["$scope","$http","listMaps",function($scope,$http,listMaps){}]);

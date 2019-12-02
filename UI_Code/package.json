@@ -47,5 +47,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "npm": "^6.13.1"
   }
 }

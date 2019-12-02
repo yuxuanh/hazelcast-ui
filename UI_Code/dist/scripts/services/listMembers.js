@@ -1,0 +1,1 @@
+hzApp.factory("listmembers",["$http","webServiceHost",function($http,webServiceHost){return{members:function(){var url=webServiceHost+"/clusterinfo";return $http({method:"GET",url:url}).success(function(data,status,headers,config){}).error(function(data,status,headers,config){})}}}]);
